@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css-reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet" />
+    <title>Product Landing Page</title>
+</head>
+
+<body id="home">
+    <header class="header" id="header">
+        <nav id="nav-bar" class="nav">
+            <div>
+                <a href="#home">
+                    <img class="nav__logo" id="header-img"
+                        src="https://images.unsplash.com/photo-1511963118349-e2b22c0efcfc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80" />
+                </a>
+            </div>
+            <ul class="nav__menu">
+                <li class="nav__menu__link">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav__menu__link">
+                    <a href="#products" class="nav-link">Shop</a>
+                </li>
+                <li class="nav__menu__link">
+                    <a href="#features" class="nav-link">Features</a>
+                </li>
+                <li class="nav__menu__link">
+                    <a href="#contact-us" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__container container">
+            <div class="header__first-element">
+                <h1 class="header__title">
+                    Bringing People <span class="new-font">Together</span>
+                </h1>
+            </div>
+            <div class="header__second-element">
+                <img class="header__img"
+                    src="https://images.unsplash.com/photo-1575037614876-c38a4d44f5b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                    alt="People" />
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container px-md">
+            <section class="features section" id="features">
+                <h2 class="section__title">More info:</h2>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ETnlrYq7btE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h4 class="section__title_description">
+                    A craft brewery or microbrewery is a brewery that produces small
+                    amounts of beer, typically less than large breweries, and is often
+                    independently owned. Such breweries are generally perceived and
+                    marketed as having an emphasis on enthusiasm, new flavours, and
+                    varied brewing techniques. The microbrewing movement began in both
+                    the United States and United Kingdom in the 1970s,[5][6] although
+                    traditional artisanal brewing existed in Europe for centuries and
+                    subsequently spread to other countries. As the movement grew, and
+                    some breweries expanded their production and distribution, the more
+                    encompassing concept of craft brewing emerged. A brewpub is a pub
+                    that brews its own beer for sale on the premises.
+                </h4>
+            </section>
+
+            <section class="product__grid" id="products">
+                <h2 class="product__item__title">
+                    Products
+                </h2>
+                <div class="cards_container">
+                    <div class="product__card">
+                        <div class="product__card__img">
+                            <img src="https://images.unsplash.com/photo-1603906835814-485c98f7b4f9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1364&q=80"
+                                alt="IPA" />
+                        </div>
+                        <div class="product__card__description">
+                            <h3>Drunken Sailor</h3>
+                            <p>
+                                Weigh the Anchor, Hoist the Sails… Meter-high waves, lashing
+                                wind. That was the life of the English seafarers who were
+                                commissioned to bring beer to the Indian colony.  ... Ship Ahoy!
+                            </p>
+                        </div>
+                        <div class="products__card__price">
+                            <p class="price--current">2.99 EUR</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+
+                    <div class="product__card">
+                        <div class="product__card__img">
+                            <img src="https://images.unsplash.com/photo-1567291612096-635b1896679a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1287&q=80"
+                                alt="IPA" />
+                        </div>
+                        <div class="product__card__title">
+                            <h3>Elysian DAYGLOW</h3>
+                            <p class="product__card__description">
+                                A touch of wheat hazes the malt bill, softening this bright
+                                and crisp IPA. Dayglow is packed with juicy hops featuring
+                                pineapple and tropical fruit flavors and aromas
+                            </p>
+                        </div>
+                        <div class="products__card__price">
+                            <p class="price--current">3.99 EUR</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+
+                    <div class="product__card">
+                        <div class="product__card__img">
+                            <img src="https://images.unsplash.com/photo-1534534110269-583d430e0038?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80"
+                                alt="IPA" />
+                        </div>
+                        <div class="product__card__title">
+                            <h3>Our BEST Beer pack</h3>
+                            <p class="product__card__description">
+                                You still have a lot to do or too much behind you. You have
+                                been deprived of hops all day. Since getting up you can't
+                                think of anything else ... Here is your very own dose of hops
+                                - here you go.
+                            </p>
+                        </div>
+                        <div class="products__card__price">
+                            <p class="price--current">4.99 EUR</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-us px-medium" id="contact-us">
+                <h2 class="section__title">Contact us</h2>
+                <form action="https://www.freecodecamp.com/email-submit" id="form" class="contact-us__form">
+                    <label class="email-label" for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Please enter your email" required />
+                    <label class="message-label" for="message">Message</label>
+                    <textarea id="message" placeholder="What is your mood ?" required cols="90" rows="5"></textarea>
+                    <input type="submit" id="submit" />
+                </form>
+            </section>
+        </div>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
